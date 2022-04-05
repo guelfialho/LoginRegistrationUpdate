@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Arthur Oliveira",
+      "email": "admin",
+      "skills": ["frontend", "react"],
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name": "Maria Julia da Silva",
+      "email": "adm",
+      "skills": ["backend", "node"],      
+      "password": "321"
+    }
+  ]
+}
