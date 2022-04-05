@@ -67,6 +67,12 @@ const UserLogin = () => {
     setValues(initialState);
   }
 
+
+  function onChangeRegistration(e) {
+    e.preventDefault();
+      return history.push('/registration')
+  }
+
   return (
     <div className="user-login">
       <h1 className="user-login__title">Acessar o Sistema</h1>
@@ -89,7 +95,14 @@ const UserLogin = () => {
         >
           Entrar
         </UIButton>
+
+        
+       
       </form>
+
+      <div>
+      <span>Não tem uma conta?  <a href="/registration">Registre-se</a></span>
+      </div>
     </div>
   );
 };
